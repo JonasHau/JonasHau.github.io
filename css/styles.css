@@ -1,5 +1,11 @@
+/*global across all menu*/
+button {
+	background-color: lightgray;
+}
+
 button:hover {
 	box-shadow: 0 2px 5px gray;
+	background-color: lightgray;
 	
 }
 
@@ -13,8 +19,33 @@ body {
 	
 }
 
-p {
-	max-width: 50%;
-	margin-left: 25%;
+/*skills*/
+
+ul {
+	max-width: 40%;
+	padding-left: 30%;
+}
+
+ul li {
+	/*max-width: 50%;
+	padding-left: 25%;*/
+	text-align: left;
+	
+}
+
+/*about*/
+
+#aboutMenu {
+	max-width: 75%;
+}
+
+/*footer*/
+
+footer {	/*taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer*/
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: lightgray;
 	
 }
